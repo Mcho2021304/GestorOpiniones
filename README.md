@@ -1,10 +1,13 @@
 # 🗂️ Gestor de Opiniones
 
+## 📋 Requisitos Previos
+
+Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
 🚀 TECNOLOGÍAS UTILIZADAS
-🟢 Node.js
-⚡ Express
-🍃 MongoDB
-🧩 Mongoose
+- 🟢 Node.js (versión 18 o superior recomendada)
+- 📦 npm (se instala junto con Node.js)
+- 🍃 MongoDB (local o MongoDB Atlas)
+- 🧪 Postman (opcional, para probar los endpoints)
 
 📌 ¿Qué es el Gestor de Opiniones?
 El Gestor de Opiniones es una API REST desarrollada para la gestión de:
