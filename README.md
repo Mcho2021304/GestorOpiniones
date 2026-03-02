@@ -1,6 +1,6 @@
 # gestor_de_opiniones
 Para clonar el proyecto en git bash
-
+https://github.com/Mcho2021304/GestorOpiniones.git
 
 Para correr el proyecto en git bash
 npm run dev
@@ -12,13 +12,13 @@ User - Usuarios
 http://localhost:3005/opinionManager/v1/users
 Get - Lista 
 Post - Crea
-{
-  "name": "Sebastian",
-  "username": "sebas123",
-  "surname": "cho",
-  "email": "sebas@gmail.com",
-  "password": "11111"
-}
+  {
+    "name": "Sebastian",
+    "username": "sebas123",
+    "surname": "cho",
+    "email": "sebas@gmail.com",
+    "password": "11111"
+  }
 
 Put - Edita
 http://localhost:3005/opinionManager/v1/users/69a59951783f1f1083fb91ef
