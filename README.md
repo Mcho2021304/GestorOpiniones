@@ -9,8 +9,8 @@ API para la gestión de users, posts y feedback.
 ```bash
 npm install
 
-```bash
 npm run dev
+```
 
 ### 2️⃣ Instalar Ejecutar Servidor
 Servidor por defecto
