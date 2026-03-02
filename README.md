@@ -1,7 +1,57 @@
 # 🗂️ Gestor de Opiniones
 
-API REST para la gestión de **Usuarios**, **Publicaciones** y **Comentarios (Feedback)**.
+🚀 TECNOLOGÍAS UTILIZADAS
+🟢 Node.js
+⚡ Express
+🍃 MongoDB
+🧩 Mongoose
 
+📌 ¿Qué es el Gestor de Opiniones?
+El Gestor de Opiniones es una API REST desarrollada para la gestión de:
+👤 Usuarios
+📝 Publicaciones (Posts)
+💬 Comentarios (Feedback)
+Permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre cada entidad, siguiendo buenas prácticas de arquitectura con controladores, modelos, rutas y middlewares.
+
+## 📁 Estructura del Proyecto
+
+```
+GESTOROPINIONES/
+│
+├── configs/
+├── fronted/
+├── middlewares/
+│   ├── check-validators.js
+│   ├── handle-errors.js
+│   └── request-limit.js
+│
+├── node_modules/
+│
+├── src/
+│   ├── comments/
+│   │   ├── comment.controller.js
+│   │   ├── comment.model.js
+│   │   └── comment.routes.js
+│   │
+│   ├── post/
+│   │   ├── post.controller.js
+│   │   ├── post.model.js
+│   │   └── post.routes.js
+│   │
+│   └── user/
+│       ├── user.controller.js
+│       ├── user.model.js
+│       └── user.routes.js
+│
+├── .env
+├── .gitignore
+├── index.js
+├── LICENSE
+├── OpinionesManager.postman_collection.json
+├── package.json
+├── package-lock.json
+└── README.md
+```
 ---
 
 # 🚀 Instalación y Ejecución
@@ -85,8 +135,4 @@ PUT /feedback/69a59dab783f1f1083fb9200
 
 DELETE /feedback/69a59dab783f1f1083fb9200
 
-📦 Tecnologías Utilizadas
-Node.js
-Express
-MongoDB
-Mongoose
+
